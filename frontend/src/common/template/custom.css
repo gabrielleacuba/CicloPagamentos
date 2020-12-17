@@ -1,8 +1,32 @@
 .skin-blue .main-header .navbar {
-  background-color: #ffda2f !important;
+  background-color: #ffb703 !important;
 }
 .skin-blue .main-header .logo {
-  background-color: #ffbf00 !important;
+  background-color: #fb8500 !important;
+}
+
+.skin-blue .main-header li.user-header {
+  background-color: #ffb703;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+  background-color: #023047;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a {
+  background: #011e2c;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu {
+  background: #044869;
+}
+
+.bg-green {
+  background-color: #43aa8b !important;
+}
+.bg-red {
+  background-color: #f94144 !important;
+}
+.bg-blue{
+  background-color: #0f4c5c !important;
 }
 
 .main-footer {
@@ -20,5 +44,5 @@ button {
 }
 
 body {
-    background: #333 !important;
+    background: #ECF0F5 !important;
 }
