@@ -5,7 +5,8 @@
   "main": "src/loader.js",
   "scripts": {
     "dev": "nodemon",
-    "production": "pm2 start src/loader.js --name my-bills-backend"
+    "production": "pm2 start src/loader.js --name my-bills-backend",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -15,12 +16,14 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "express-query-int": "^1.0.1",
+    "jest": "^26.6.3",
     "jsonwebtoken": "^7.3.0",
     "lodash": "^4.17.4",
     "mongoose": "^4.13.21",
     "mongoose-paginate": "^5.0.3",
     "node-restful": "^0.2.5",
-    "pm2": "^2.1.5"
+    "pm2": "^2.1.5",
+    "supertest": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
